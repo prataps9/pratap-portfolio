@@ -1,5 +1,6 @@
 import {
   profile,
+  links,
   education,
   experience,
   projects,
@@ -43,6 +44,20 @@ export default function App() {
             <a className="btn" href={profile.website} target="_blank" rel="noreferrer">Website</a>
           </div>
         </section>
+
+        <Section id="links" title="Links">
+          <div className="card">
+            <div className="tags">
+              {links.map((l) =>
+                l.url ? (
+                  <a className="btn" key={l.label} href={l.url} target="_blank" rel="noreferrer">{l.label}</a>
+                ) : (
+                  <span className="tag" key={l.label}>{l.label} — link coming soon</span>
+                )
+              )}
+            </div>
+          </div>
+        </Section>
 
         <Section id="education" title="Education">
           {education.map((e) => (

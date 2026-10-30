@@ -8,6 +8,14 @@ export const profile = {
   github: 'https://github.com/prataps9',
 }
 
+export const links = [
+  { label: 'LinkedIn', url: '' },
+  { label: 'LeetCode', url: '' },
+  { label: 'InvozenBilling', url: '' },
+  { label: 'MeteorBot', url: '' },
+  { label: 'My Timeline', url: '' },
+]
+
 export const education = [
   {
     school: 'Indian Institute of Technology, Patna',
