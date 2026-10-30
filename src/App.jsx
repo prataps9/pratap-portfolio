@@ -39,7 +39,6 @@ export default function App() {
           <p className="subtitle">{profile.title}</p>
           <p className="muted">{profile.location}</p>
           <div className="actions">
-            <a className="btn primary" href={`mailto:${profile.email}`}>Email me</a>
             <a className="btn" href={profile.github} target="_blank" rel="noreferrer">GitHub</a>
             <a className="btn" href={profile.website} target="_blank" rel="noreferrer">Website</a>
           </div>
@@ -123,7 +122,6 @@ export default function App() {
 
         <Section id="contact" title="Contact">
           <div className="card">
-            <p>Email: <a href={`mailto:${profile.email}`}>{profile.email}</a></p>
             <p>Phone: <a href={`tel:${profile.phone}`}>{profile.phone}</a></p>
           </div>
         </Section>

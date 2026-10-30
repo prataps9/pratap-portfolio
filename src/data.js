@@ -2,7 +2,7 @@ export const profile = {
   name: 'Pratap Singh Sisodiya',
   title: 'Full Stack & Generative AI Engineer',
   location: 'Rajasthan, India',
-  email: 'pratap.09082005@gmail.com',
+  email: '',
   phone: '+91-9256569039',
   website: 'https://pratapsisodiya.in',
   github: 'https://github.com/prataps9',
